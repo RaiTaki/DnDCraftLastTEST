@@ -1,0 +1,18 @@
+name: DnDCraftLastTest
+version: '${project.version}'
+main: xyz.raitaki.DnDCraftLastTest.Main
+api-version: 1.18
+depend: [Atlas]
+commands:
+  hi:
+    description: A basic command to greet people
+    usage: /hi
+  menutest:
+    description: A basic command to open menu
+    usage: /menutest
+  createtestitem:
+    description: A basic command to create test item
+    usage: /createtestitem
+  checktestitemmeta:
+    description: A basic command to check test item's meta
+    usage: /checktestitemmeta
